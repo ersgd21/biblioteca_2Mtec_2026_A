@@ -13,6 +13,7 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @include('layouts.theme-init')
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
